@@ -36,6 +36,9 @@
 #define IORD_ALTERA_AVALON_PWM_DIVIDER(base)            IORD(base, 0) 
 #define IOWR_ALTERA_AVALON_PWM_DIVIDER(base, data)      IOWR(base, 0, data)
 
+#define IOWR_ALTERA_AVALON_PWM_DT(base)      			IORD(base, 2)
+#define IOWR_ALTERA_AVALON_PWM_DT(base, data)      		IOWR(base, 2, data)
+
 #define IORD_ALTERA_AVALON_PWM_DUTY(base)       IORD(base, 1) 
 #define IOWR_ALTERA_AVALON_PWM_DUTY(base, data) IOWR(base, 1, data)
 
